@@ -1,0 +1,7 @@
+{
+  "name": "dadodriver",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
