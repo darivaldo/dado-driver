@@ -1,4 +1,20 @@
 page-login {
+
+  .enter-btn{
+    border-radius: 3%; 
+    color:#f7e706;
+    box-shadow: inset 0 0 1em gold; 
+    background-color: #dc143c !important;
+  }
+
+  .account-btn{
+    border-radius: 3%; 
+    color: #dc143c;
+    box-shadow: inset 0 0 1em #dc143c;
+    background-color:#f7e706 !important;
+  }
+
+
   .btn-dado {
     background: color($colors, dado);
   }

@@ -22,13 +22,13 @@
           <button ion-button clear item-right (click)="reset()">{{'Esqueci a senha' | translate }}</button>
         </ion-item>
         <ion-item>
-          <button style="border-radius: 5%; font-weight:bolder; color:#f8f406; background-color: #f80505 !important; " padding ion-button block (click)="login()">{{'Entrar' | translate }}</button>
+          <button class="enter-btn" padding ion-button block (click)="login()">{{'Entrar' | translate }}</button>
+        </ion-item>
+        <ion-item *ngIf="isRegisterEnabled">
+          <button class="account-btn" padding ion-button block (click)="signup()">{{'Criar Conta' | translate }}</button>
         </ion-item>
       </ion-list>
 
     </div>
   </div>
 </ion-content>
-<ion-footer *ngIf="isRegisterEnabled">
-  <button style="border-radius: 5%; font-weight:bolder;color: #f80505 !important;  background-color:#f8f406 !important;" ion-button block class="btn-dado" (click)="signup()">{{'Criar Conta' | translate }}</button>
-</ion-footer>
